@@ -234,7 +234,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: ;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -265,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/train.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -651,11 +651,30 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#menu {
+    background-color: #222;
+    background-image: url(../img/kitchen.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+section#menu .section-heading {
+    color: #fff;
+}
+
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(../img/four.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 section#contact .section-heading {
@@ -864,4 +883,12 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.col-md-4.box {
+    background-color: #fff;
+    position: relative;
+    width: 30%;
+    min-width: 300px;
+    margin: 0 auto;
 }
